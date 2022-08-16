@@ -1,0 +1,56 @@
+@import "../../commonStyles/color.module.scss";
+
+.sent_messages {
+  margin-left: auto;
+  border: 2px solid $sky-200 !important;
+  border-radius: 10px;
+  margin-left: auto !important;
+  width: 50%;
+  margin-right: 70px !important;
+  max-width: 40%;
+  padding: 12px 0px 12px 8px;
+  span {
+    font-weight: 600;
+  }
+}
+.received_messages {
+  padding: 12px 0px 12px 8px;
+  border: 1px solid $pink-200;
+  width: 50%;
+  margin: 10px;
+  border-radius: 10px;
+  max-width: 40%;
+  span {
+    font-weight: 600;
+  }
+}
+.main_wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $white-color;
+  padding: 30px 10px;
+  width: 50%;
+  height: 90%;
+  border-radius: 10px;
+}
+.main_textbox_wrapper {
+  display: flex;
+  img {
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 9px;
+  }
+}
+.sent_img {
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+}
+.chat_container {
+  overflow: auto;
+  height: 90%;
+  width: 100%;
+  position: relative;
+}
